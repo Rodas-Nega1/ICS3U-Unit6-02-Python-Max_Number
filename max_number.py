@@ -29,7 +29,7 @@ def main():
 
     # output
     for loop_counter in range(0, 10):
-        number_in_array = random.randint(0, 100 + 1)
+        number_in_array = random.randint(0, 100)
         random_generated_numbers.append(number_in_array)
 
     print("The random numbers from (1-100) are...")
@@ -38,7 +38,7 @@ def main():
 
     largest_number = largest_value(random_generated_numbers)
 
-    print("\nThe largest number is {0}".format(largest_number))
+    print("\nThe largest number is {0}.".format(largest_number))
     print("\nDone.")
 
 
